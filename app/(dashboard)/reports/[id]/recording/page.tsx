@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ArrowLeft, Download, Play, Extend } from 'lucide-react';
+import { ArrowLeft, Download, Play, Clock } from 'lucide-react';
 
 export default function RecordingPage({ params }: { params: { id: string } }) {
   return (
@@ -70,7 +70,7 @@ export default function RecordingPage({ params }: { params: { id: string } }) {
             </p>
           </div>
           <button className="flex items-center px-4 py-2 text-sm font-medium text-yellow-900 bg-yellow-100 rounded-lg hover:bg-yellow-200">
-            <Extend className="h-4 w-4 mr-2" />
+            <Clock className="h-4 w-4 mr-2" />
             Extend 7 Days
           </button>
         </div>
